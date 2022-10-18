@@ -23,8 +23,32 @@ main{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.meme{
+    position: relative;
+}
 .meme--image{
     max-width: 100%;
     margin-top: 30px;
+}
+.meme--text{
+    text-align: center;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #000000;
+}
+.top{
+    position: absolute;
+    top:0;
+    align-self: center;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
 }
 
